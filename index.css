@@ -1,0 +1,89 @@
+ 
+/* Oops, all we have here is some tailwind classes,
+but we're not set up for tailwind!
+Prompt ChatGPT to 
+extract the CSS to an external stylesheet  */
+
+
+/*<div class="relative h-screen font-sans text-center overflow-hidden">
+    <button id="startButton" class="text-base px-5 py-2.5 cursor-pointer">Blast Off!</button>
+    <div id="timer" class="text-2xl m-5">3</div>
+    <div class="rocket text-3xl transition-transform duration-2000 absolute bottom-0 left-1/2 transform -translate-x-full">🚀</div>
+</div>
+*/
+
+.relative {
+  position: relative;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.font-sans {
+  font-family: sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-2.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.transition-transform {
+  transition-property: transform;
+}
+
+.duration-2000 {
+  transition-duration: 2000ms;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-1/2 {
+  left: 50%;
+}
+
+.transform {
+  transform: translateX(-50%);
+}
+
+
